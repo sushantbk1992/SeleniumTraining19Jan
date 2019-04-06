@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="GmailLogin(failed)">
+    <classes>
+      <class name="Scripts.TestNG.GmailLoginTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="GmailLogin"/>
+        </methods>
+      </class> <!-- Scripts.TestNG.GmailLoginTest -->
+    </classes>
+  </test> <!-- GmailLogin(failed) -->
+</suite> <!-- Failed suite [Suite] -->
